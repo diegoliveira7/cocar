@@ -1,0 +1,129 @@
+@media only screen and (max-width: 500px) {
+	#produtos {
+		margin-top: 0px;
+	}
+	#agua {
+		margin-top: 0px;
+	}
+	#sucos {
+		margin-top: 0px;
+	}
+}
+div#topo{
+	background-color: #336633;
+	width: 100%;
+	height: 60px;
+}
+#button-topo{
+	float: right;
+	font-family: 'Nunito', sans-serif;
+	background-color: #d19d30;
+	color: white;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	font-size: 25px;
+}
+div#header {
+	width: 100%;
+	margin: auto;
+	background-color: rgb(240,245,226);
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+}
+
+div#header img{
+	margin-top: -30px;
+	margin-bottom: 0px;
+	text-align: center;
+	background-color: rgb(240,245,226);
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+}
+ul#nav-left{
+	list-style: none;
+	float: left;
+	display: block;
+	font-family: 'Amatic SC', cursive;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20pt;
+}
+ul#nav-right{
+	list-style: none;
+	float: right;
+	display: block;
+	font-family: 'Amatic SC', cursive;
+	margin-top: 50px;
+	font-size: 20pt;
+}
+ul#nav-left li{
+	float: left;
+	margin-right: 26px;
+}
+ul#nav-right li{
+	float: right;
+	margin-right: 26px;
+}
+ul#nav-left a{
+	text-decoration: none;
+	color: #2a4f66;
+}
+ul#nav-right a{
+	text-decoration: none;
+	color: #2a4f66;
+}
+#slide{
+	width: 100%;
+	padding: 0px;
+	z-index: 0;
+	position: relative;
+	padding-top: 100px;
+	font-family: 'ApexNew-BoldItalic';
+}
+#corpo {
+	padding: 0px;
+	margin-top: -17px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	height: 100%;
+	width: 50%;
+	font-family: 'ApexNew-BoldItalic';
+}
+#texto {
+	margin-top: 50px;
+	font-family: 'ApexNew-BoldItalic';
+}
+#logo-corpo {
+	margin-top: 50px;
+	float: right;
+}
+#agua {
+	margin-top: 100px;
+	text-align: center;
+	float: right;
+	font-family: 'ApexNew-BoldItalic';
+}
+#sucos {
+	margin-top: 400px;
+	text-align: center;
+	font-family: 'ApexNew-BoldItalic';
+}
+#sucos-light {
+	margin-top: 500px;
+	text-align: center;
+	font-family: 'ApexNew-BoldItalic';
+}
+#video {
+	width: 50%;
+	margin-left: 0px;
+	height: 300px;
+}
+@font-face {
+font-family: 'ApexNew-BoldItalic';
+font-style: normal;
+font-weight: normal;
+src: local('ApexNew-BoldItalic'), url('ApexNew-BoldItalic.woff') format('woff');
+}
